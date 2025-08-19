@@ -1,0 +1,25 @@
+ <svg width="180" height="20" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 138 20" role="img" aria-label="Low Key logo">
+
+  <style>
+    @font-face {
+      font-family: "BebasNeueCyr";
+      src: url("BebasNeueCyr-Regular.ttf") format("truetype");
+      font-weight: normal;
+      font-style: normal;
+    }
+    /* For bold effect browsers will use font-weight; if the font has no bold face, stroke is added as fallback */
+    .logo-text {
+      font-family: "BebasNeueCyr", "Bebas Neue", Bebas, sans-serif;
+      font-size: 18px;
+      font-weight: 700;
+      fill: #e0840bff;
+      /* fallback thicker look if bold face is not available */
+      paint-order: stroke fill;
+      stroke: #e0840bff;
+      stroke-width: 0.5px;
+    }
+  </style>
+
+  <!-- Texto centrado verticalmente con un pequeño margen izquierdo -->
+  <text x="30" y="18" class="logo-text">Solcito de pan</text>
+</svg>
